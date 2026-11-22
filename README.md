@@ -36,7 +36,7 @@ Engineered purely with semantic HTML, modular CSS, and native browser JavaScript
 Bespoke front-end design and web development for modern brands.
 
 * **Email:** [webweavers.freelance@gmail.com](mailto:webweavers.freelance@gmail.com)
-* **Compose in Gmail:**[webweavers.freelance@gmail.com](https://google.com—%20Web-Weavers)
+* **Compose in Gmail:**[webweavers.freelance@gmail.com]([https://google.com—%20Web-Weavers](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfnbWlmBzsxDwMRMkJRjMwqJfrmFTFTrKTqvwmMNgdknqBHGFXjlskGwBFLPTRmBbHnzdq))
 
 
 ---
