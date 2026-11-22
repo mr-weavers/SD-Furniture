@@ -1,0 +1,829 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f2eb" />
+    <meta
+      name="description"
+      content="Thoughtful furniture for slower, more considered living. Explore the SD Furniture collection and enquire about your next piece."
+    />
+    <title>SD Furniture — Quiet forms for everyday living</title>
+    <meta
+      name="description"
+      content="SD Furniture explores considered silhouettes, natural timber, and tactile finishes crafted for unhurried everyday living."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Skip link: keyboard users can bypass the site navigation. -->
+    <a class="skip-link" href="#app-main">Skip to main content</a>
+
+    <!-- Header: fixed brand and main menu controls -->
+    <header class="site-header">
+      <div class="header-brand">
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span class="menu-toggle-label">Menu</span>
+          <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+        <a
+          class="wordmark"
+          href="#home"
+          data-route="home"
+          aria-label="SD Furniture home"
+          >SD<span>.</span></a
+        >
+      </div>
+      <a class="header-location" href="#home" data-route="home"
+        ><span class="location-dot"></span> SD FURNITURE / MADE WITH CARE</a
+      >
+      <p class="header-note">MADE FOR THE WAY YOU LIVE</p>
+    </header>
+
+    <!-- Navigation overlay -->
+    <nav
+      class="primary-nav"
+      id="primary-nav"
+      aria-label="Main navigation"
+      aria-hidden="true"
+      inert
+    >
+      <div class="nav-overlay-texture"></div>
+      <div class="nav-topline">
+        <span>SD FURNITURE — EST. WITH CARE</span><span>TAKE YOUR TIME</span>
+      </div>
+      <div class="nav-content">
+        <p class="nav-kicker">Where would you like to go?</p>
+        <div class="nav-links">
+          <a class="nav-link" href="#home" data-route="home"
+            ><span class="nav-number">01</span
+            ><span class="nav-label-roll"
+              ><span>Home</span><span aria-hidden="true">Home</span></span
+            ><span class="nav-arrow">↗</span></a
+          >
+          <a class="nav-link" href="#collection" data-route="collection"
+            ><span class="nav-number">02</span
+            ><span class="nav-label-roll"
+              ><span>Collection</span
+              ><span aria-hidden="true">Collection</span></span
+            ><span class="nav-arrow">↗</span></a
+          >
+          <a class="nav-link" href="#story" data-route="story"
+            ><span class="nav-number">03</span
+            ><span class="nav-label-roll"
+              ><span>Our story</span
+              ><span aria-hidden="true">Our story</span></span
+            ><span class="nav-arrow">↗</span></a
+          >
+          <a class="nav-link" href="#visit" data-route="visit"
+            ><span class="nav-number">04</span
+            ><span class="nav-label-roll"
+              ><span>Get in touch</span
+              ><span aria-hidden="true">Get in touch</span></span
+            ><span class="nav-arrow">↗</span></a
+          >
+        </div>
+      </div>
+      <div class="nav-bottomline">
+        <span>OBJECTS WITH A LITTLE MORE SOUL</span
+        ><span>© 2026 SD FURNITURE</span>
+      </div>
+    </nav>
+
+    <!-- Main SPA views -->
+    <main id="app-main">
+      <div class="page-curtain" aria-hidden="true"></div>
+
+      <!-- Home view -->
+      <section
+        class="spa-view home-view is-active"
+        id="home"
+        data-view="home"
+        aria-labelledby="home-title"
+      >
+        <div class="home-stack">
+          <section class="home-panel home-panel--hero">
+            <div class="home-hero-image"></div>
+            <div class="home-hero-shade"></div>
+            <div class="home-hero-copy">
+              <p class="eyebrow hero-eyebrow">
+                <span></span> SPACES TO SETTLE INTO
+              </p>
+              <h1 id="home-title">Make room<br />for <em>living.</em></h1>
+              <p class="hero-copy">
+                Thoughtful furniture, honest materials, and the little details
+                that make a place feel like yours.
+              </p>
+              <button
+                class="button button-light route-button"
+                type="button"
+                data-route="collection"
+              >
+                Explore the collection <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+            <div class="hero-index"><span>01</span><i></i><span>04</span></div>
+            <p class="hero-caption">Furniture Brand Concept</p>
+            <span class="scroll-hint"><i></i> SCROLL TO SETTLE IN</span>
+          </section>
+
+          <section class="home-panel home-panel--manifesto">
+            <div class="manifesto-image parallax-mask">
+              <img
+                class="parallax-image"
+                src="assets/workshop.svg"
+                alt="Furniture makers shaping wood in a sunlit workshop"
+              />
+            </div>
+            <div class="manifesto-copy">
+              <p class="eyebrow">GOOD THINGS TAKE SHAPE</p>
+              <h2>Pieces that feel<br />like <em>they belong.</em></h2>
+              <p>
+                The best rooms grow around the things you love. Discover
+                timeless forms made for everyday rituals and years of good
+                living.
+              </p>
+              <button
+                class="text-link route-button"
+                type="button"
+                data-route="story"
+              >
+                A little about us <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+            <span class="manifesto-index">02 / 02</span>
+          </section>
+        </div>
+
+        <section class="home-collection-section home-reveal">
+          <div class="home-section-heading">
+            <div>
+              <p class="eyebrow">A FEW GOOD THINGS</p>
+              <h2>Considered pieces.<br /><em>Everyday favourites.</em></h2>
+            </div>
+            <button
+              class="text-link route-button"
+              type="button"
+              data-route="collection"
+            >
+              See the full collection <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+          <div class="home-feature-grid">
+            <button
+              class="home-feature home-feature--chair home-reveal"
+              type="button"
+              data-route="collection"
+            >
+              <span class="home-feature-image parallax-mask"
+                ><img class="parallax-image" src="assets/chair.svg" alt=""
+              /></span>
+              <span class="home-feature-meta"
+                ><span
+                  ><strong>The Sunday Chair</strong
+                  ><small>Oak · Natural linen</small></span
+                ><i aria-hidden="true">↗</i></span
+              >
+            </button>
+            <button
+              class="home-feature home-feature--table home-reveal"
+              type="button"
+              data-route="collection"
+            >
+              <span class="home-feature-image parallax-mask"
+                ><img class="parallax-image" src="assets/table.svg" alt=""
+              /></span>
+              <span class="home-feature-meta"
+                ><span
+                  ><strong>The Gather Table</strong
+                  ><small>Smoked ash · Hand-finished</small></span
+                ><i aria-hidden="true">↗</i></span
+              >
+            </button>
+            <button
+              class="home-feature home-feature--lamp home-reveal"
+              type="button"
+              data-route="collection"
+            >
+              <span class="home-feature-image parallax-mask"
+                ><img class="parallax-image" src="assets/lamp.svg" alt=""
+              /></span>
+              <span class="home-feature-meta"
+                ><span
+                  ><strong>The Still Pendant</strong
+                  ><small>Brushed brass · Opal glass</small></span
+                ><i aria-hidden="true">↗</i></span
+              >
+            </button>
+          </div>
+        </section>
+
+        <section class="home-values-section home-reveal">
+          <div class="values-image parallax-mask">
+            <img
+              class="parallax-image"
+              src="assets/side-table.svg"
+              alt="Natural stone and wood details in the furniture collection"
+            />
+            <span>HONEST MATERIALS / THOUGHTFUL DETAILS</span>
+          </div>
+          <div class="values-copy">
+            <p class="eyebrow">MADE FOR THE IN-BETWEEN MOMENTS</p>
+            <h2>Good design<br />makes room for <em>life.</em></h2>
+            <p>
+              Slow mornings. One more guest at the table. A favourite corner
+              that catches the afternoon light. We make pieces for the everyday
+              moments that become the ones you remember.
+            </p>
+            <div class="values-list">
+              <div>
+                <span>01</span><strong>Natural by nature</strong>
+                <p>
+                  Materials chosen for the way they feel, age, and live with
+                  you.
+                </p>
+              </div>
+              <div>
+                <span>02</span><strong>Made with intention</strong>
+                <p>
+                  Thoughtful proportions, considered details, nothing extra.
+                </p>
+              </div>
+              <div>
+                <span>03</span><strong>Here for the long run</strong>
+                <p>Quietly enduring pieces that feel more yours with time.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="home-story-section home-reveal">
+          <p class="eyebrow">A SLOWER WAY OF MAKING</p>
+          <h2>Objects with a little<br />more <em>soul.</em></h2>
+          <p>Behind every favourite is a story worth taking a moment for.</p>
+          <button
+            class="button button-dark route-button"
+            type="button"
+            data-route="story"
+          >
+            Get to know SD <span aria-hidden="true">↗</span>
+          </button>
+          <span class="home-story-orbit" aria-hidden="true"
+            >MADE WITH CARE · KEPT FOR LONGER · MADE WITH CARE · KEPT FOR LONGER
+            ·</span
+          >
+        </section>
+
+        <!-- Collection view -->
+        <section
+          class="home-order-section home-reveal"
+          aria-labelledby="order-title"
+        >
+          <div class="order-heading">
+            <div>
+              <p class="eyebrow">A FEW SIMPLE STEPS</p>
+              <h2 id="order-title">
+                Finding your piece<br />should feel <em>easy.</em>
+              </h2>
+            </div>
+            <p>
+              From first look to a piece that feels like yours, we’ll make room
+              for a conversation.
+            </p>
+          </div>
+          <div class="order-steps">
+            <article class="order-step">
+              <span class="order-number">01</span>
+              <span class="order-marker" aria-hidden="true">↗</span>
+              <h3>Find a favourite</h3>
+              <p>
+                Explore the collection and notice what feels right for your
+                space.
+              </p>
+            </article>
+            <article class="order-step">
+              <span class="order-number">02</span>
+              <span class="order-marker" aria-hidden="true">↗</span>
+              <h3>Start a conversation</h3>
+              <p>
+                Tell us which piece you have in mind and what you’d like to
+                know.
+              </p>
+            </article>
+            <article class="order-step">
+              <span class="order-number">03</span>
+              <span class="order-marker" aria-hidden="true">↗</span>
+              <h3>Make it yours</h3>
+              <p>
+                We’ll help you explore the details and next steps for your
+                enquiry.
+              </p>
+            </article>
+          </div>
+          <button
+            class="text-link route-button order-link"
+            type="button"
+            data-route="collection"
+          >
+            Start with the collection <span aria-hidden="true">↗</span>
+          </button>
+        </section>
+
+        <footer class="home-footer home-reveal">
+          <div class="home-footer-top">
+            <div>
+              <a
+                class="wordmark home-footer-mark route-button"
+                href="#home"
+                data-route="home"
+                >SD<span>.</span></a
+              >
+              <p>Thoughtful furniture<br />for everyday living.</p>
+            </div>
+            <div class="footer-contact">
+              <span class="footer-label">SAY HELLO</span>
+              <a
+                class="footer-hover-link"
+                href="mailto:webweavers.freelance@gmail.com"
+                >webweavers.freelance@gmail.com
+                <span aria-hidden="true">↗</span></a
+              >
+            </div>
+            <div class="footer-social">
+              <span class="footer-label">STUDIO HOURS</span>
+              <span class="footer-text">Monday - Friday</span>
+              <span class="footer-text">By appointment</span>
+            </div>
+            <div class="footer-nav">
+              <span class="footer-label">TAKE A LOOK</span>
+              <button
+                class="footer-hover-link route-button"
+                type="button"
+                data-route="collection"
+              >
+                Collection <span aria-hidden="true">↗</span>
+              </button>
+              <button
+                class="footer-hover-link route-button"
+                type="button"
+                data-route="story"
+              >
+                Our story <span aria-hidden="true">↗</span>
+              </button>
+              <button
+                class="footer-hover-link route-button"
+                type="button"
+                data-route="visit"
+              >
+                Get in touch <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </div>
+          <div class="home-footer-bottom">
+            <span>© 2026 SD FURNITURE</span
+            ><span>MADE FOR THE WAY YOU LIVE</span
+            ><button class="footer-top-link" type="button" data-scroll-top>
+              BACK TO TOP ↑
+            </button>
+          </div>
+        </footer>
+      </section>
+
+      <!-- Architectural product sheet view -->
+
+      <section
+        class="spa-view product-sheet-view"
+        data-view="product"
+        hidden
+        aria-hidden="true"
+      >
+        <div class="sheet-topbar">
+          <button
+            type="button"
+            class="text-link sheet-back"
+            data-route="collection"
+          >
+            <span>←</span> Back to collection
+          </button>
+          <p class="eyebrow sheet-study-id" id="sheet-study-id">
+            STUDY NO. 01 · SEATING
+          </p>
+        </div>
+
+        <div class="sheet-stage">
+          <div class="sheet-canvas" id="sheet-canvas">
+            <img
+              id="sheet-image"
+              src="assets/chair.svg"
+              alt="Concept furniture illustration"
+            />
+            <div
+              class="sheet-pins"
+              id="sheet-pins"
+              role="group"
+              aria-label="Interactive design details"
+            ></div>
+          </div>
+
+          <aside
+            class="sheet-annotation"
+            id="sheet-annotation"
+            aria-live="polite"
+          >
+            <span class="eyebrow" id="pin-index">01 · DETAIL</span>
+            <h2 id="pin-title">Sculpted Frame</h2>
+            <p id="pin-desc">
+              Select any numbered point on the illustration to inspect
+              illustrative proportions and materials.
+            </p>
+          </aside>
+        </div>
+
+        <div class="sheet-dock">
+          <div class="sheet-dock-title">
+            <h1 id="sheet-title">The Sunday Chair</h1>
+            <span id="sheet-price">Enquire for pricing · Concept study</span>
+          </div>
+
+          <div class="sheet-dock-specs">
+            <div>
+              <span class="eyebrow">Illustrative Dimensions</span>
+              <p id="sheet-dimensions">W 74 × D 80 × H 76 cm</p>
+            </div>
+            <div>
+              <span class="eyebrow">Concept Finishes</span>
+              <div
+                class="sheet-swatches"
+                id="sheet-swatches"
+                role="group"
+                aria-label="Concept finish preview"
+              ></div>
+            </div>
+          </div>
+
+          <button
+            type="button"
+            class="button button-light sheet-enquire-btn"
+            id="sheet-enquire-btn"
+          >
+            Enquire about this piece <span>→</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Collection view -->
+      <section
+        class="spa-view collection-view"
+        id="collection"
+        data-view="collection"
+        aria-labelledby="collection-title"
+        hidden
+      >
+        <div class="view-heading">
+          <div>
+            <p class="eyebrow">THE SD EDIT / NO. 01</p>
+            <h1 id="collection-title">Made to be <em>lived in.</em></h1>
+          </div>
+          <p>
+            Considered forms, natural materials,<br />and room for real life.
+          </p>
+        </div>
+        <div class="collection-toolbar">
+          <div
+            class="filter-row"
+            role="group"
+            aria-label="Filter products by category"
+          >
+            <button
+              class="filter-button is-active"
+              type="button"
+              data-filter="all"
+              aria-pressed="true"
+            >
+              All pieces <span>06</span>
+            </button>
+            <button
+              class="filter-button"
+              type="button"
+              data-filter="seating"
+              aria-pressed="false"
+            >
+              Seating
+            </button>
+            <button
+              class="filter-button"
+              type="button"
+              data-filter="tables"
+              aria-pressed="false"
+            >
+              Tables
+            </button>
+            <button
+              class="filter-button"
+              type="button"
+              data-filter="lighting"
+              aria-pressed="false"
+            >
+              Lighting
+            </button>
+          </div>
+          <span class="collection-count">Showing 6 pieces</span>
+        </div>
+        <div
+          class="product-gallery"
+          role="region"
+          aria-label="Furniture collection"
+        >
+          <div class="product-track">
+            <article class="product-card" data-category="seating">
+              <div class="product-image image-chair parallax-mask">
+                <img
+                  class="parallax-image"
+                  src="assets/chair.svg"
+                  alt="The Sunday Chair in oak and natural linen"
+                  draggable="false"
+                />
+                <span class="product-tag">Bestseller</span>
+              </div>
+              <div class="product-meta">
+                <div>
+                  <h2>The Sunday Chair</h2>
+                  <p>Solid oak · Natural linen</p>
+                </div>
+                <button
+                  type="button"
+                  class="text-link product-enquire"
+                  data-product="The Sunday Chair"
+                >
+                  Enquire for price <span>↗</span>
+                </button>
+              </div>
+            </article>
+            <article class="product-card" data-category="tables">
+              <div class="product-image image-table parallax-mask">
+                <img
+                  class="parallax-image"
+                  src="assets/table.svg"
+                  alt="The Gather Table in smoked ash"
+                  draggable="false"
+                />
+              </div>
+              <div class="product-meta">
+                <div>
+                  <h2>The Gather Table</h2>
+                  <p>Smoked ash · Hand-finished</p>
+                </div>
+                <button
+                  type="button"
+                  class="text-link product-enquire"
+                  data-product="The Gather Table"
+                >
+                  Enquire for price <span>↗</span>
+                </button>
+              </div>
+            </article>
+            <article class="product-card" data-category="lighting">
+              <div class="product-image image-lamp parallax-mask">
+                <img
+                  class="parallax-image"
+                  src="assets/lamp.svg"
+                  alt="The Still Pendant in brushed brass and opal glass"
+                  draggable="false"
+                />
+                <span class="product-tag">New arrival</span>
+              </div>
+              <div class="product-meta">
+                <div>
+                  <h2>The Still Pendant</h2>
+                  <p>Brushed brass · Opal glass</p>
+                </div>
+                <button
+                  type="button"
+                  class="text-link product-enquire"
+                  data-product="The Still Pendant"
+                >
+                  Enquire for price <span>↗</span>
+                </button>
+              </div>
+            </article>
+            <article class="product-card" data-category="seating">
+              <div class="product-image image-sofa parallax-mask">
+                <img
+                  class="parallax-image"
+                  src="assets/sofa.svg"
+                  alt="The Sunday Sofa in oat cotton"
+                  draggable="false"
+                />
+              </div>
+              <div class="product-meta">
+                <div>
+                  <h2>The Sunday Sofa</h2>
+                  <p>Textured cotton · Oat</p>
+                </div>
+                <button
+                  type="button"
+                  class="text-link product-enquire"
+                  data-product="The Sunday Sofa"
+                >
+                  Enquire for price <span>↗</span>
+                </button>
+              </div>
+            </article>
+            <article class="product-card" data-category="tables">
+              <div class="product-image image-side-table parallax-mask">
+                <img
+                  class="parallax-image"
+                  src="assets/side-table.svg"
+                  alt="The Pebble Side Table in honed travertine"
+                  draggable="false"
+                />
+              </div>
+              <div class="product-meta">
+                <div>
+                  <h2>The Pebble Side Table</h2>
+                  <p>Travertine · Honed finish</p>
+                </div>
+                <button
+                  type="button"
+                  class="text-link product-enquire"
+                  data-product="The Pebble Side Table"
+                >
+                  Enquire for price <span>↗</span>
+                </button>
+              </div>
+            </article>
+            <article class="product-card" data-category="seating">
+              <div class="product-image image-stool parallax-mask">
+                <img
+                  class="parallax-image"
+                  src="assets/stool.svg"
+                  alt="The Arc Stool in honey-stained teak"
+                  draggable="false"
+                />
+              </div>
+              <div class="product-meta">
+                <div>
+                  <h2>The Arc Stool</h2>
+                  <p>Turned teak · Honey stain</p>
+                </div>
+                <button
+                  type="button"
+                  class="text-link product-enquire"
+                  data-product="The Arc Stool"
+                >
+                  Enquire for price <span>↗</span>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+        <p class="collection-footnote">
+          Ask us about current availability, finishes, dimensions, and delivery.
+        </p>
+      </section>
+
+      <!-- Contact / enquiry view -->
+      <section
+        class="spa-view story-view"
+        id="story"
+        data-view="story"
+        aria-labelledby="story-title"
+        hidden
+      >
+        <div class="story-layout">
+          <div class="story-image parallax-mask">
+            <img
+              class="parallax-image"
+              src="assets/workshop.svg"
+              alt="A furniture maker at work in a warm, sunlit studio"
+            />
+            <span class="image-caption">A slower way of making</span>
+          </div>
+          <div class="story-copy">
+            <p class="eyebrow">MADE WITH CARE / KEPT FOR LONGER</p>
+            <h1 id="story-title">
+              The beauty of<br />things <em>well made.</em>
+            </h1>
+            <p>
+              Good design should feel as good as it looks. We bring natural
+              materials, thoughtful proportions, and skilled hands together to
+              make pieces that settle in and stay.
+            </p>
+            <p>Not made for a moment. Made to become part of yours.</p>
+            <button
+              class="text-link route-button"
+              type="button"
+              data-route="collection"
+            >
+              Meet the collection <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+        </div>
+        <div class="story-quote">
+          <span aria-hidden="true">“</span>
+          <blockquote>
+            The pieces you choose become the backdrop to everything.
+          </blockquote>
+          <p>Find the one that feels like home.</p>
+        </div>
+      </section>
+
+      <!-- Contact view -->
+      <section
+        class="spa-view contact-view"
+        id="visit"
+        data-view="visit"
+        aria-labelledby="contact-title"
+        hidden
+      >
+        <div class="contact-layout">
+          <div class="contact-copy">
+            <p class="eyebrow">A GOOD PLACE TO START</p>
+            <h1 id="contact-title">
+              Tell us what<br />you’re <em>dreaming of.</em>
+            </h1>
+            <p>
+              A room to rethink, a piece you have in mind, or just a question —
+              we’d love to hear about it.
+            </p>
+            <span class="contact-signoff"
+              >A real person will read every note.</span
+            >
+          </div>
+          <form class="enquiry-form" id="enquiry-form">
+            <label
+              ><span>Your name</span
+              ><input
+                name="name"
+                type="text"
+                autocomplete="name"
+                minlength="2"
+                maxlength="60"
+                pattern="[A-Za-z]+(?: [A-Za-z]+)*"
+                placeholder="How should we call you?"
+                title="Use letters only. Spaces may separate names."
+                required
+            /></label>
+            <label
+              ><span>Email address</span
+              ><input
+                name="email"
+                type="email"
+                autocomplete="email"
+                placeholder="you@example.com"
+                required
+            /></label>
+            <label class="message-field"
+              ><span>What are you looking for?</span
+              ><textarea
+                name="message"
+                rows="3"
+                placeholder="Tell us a little about your space or the piece you love..."
+                required
+              ></textarea>
+            </label>
+            <button class="button button-light submit-button" type="submit">
+              Send an enquiry <span aria-hidden="true">↗</span>
+            </button>
+            <p class="form-status form-note">
+              Enquiries are sent securely through Formspree. If the form cannot
+              send,
+              <a href="mailto:webweavers.freelance@gmail.com"
+                >email us directly</a
+              >.
+            </p>
+            <p
+              class="form-status"
+              id="form-status"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+        <footer class="spa-footer">
+          <a
+            class="wordmark footer-mark route-button"
+            href="#home"
+            data-route="home"
+            >SD<span>.</span></a
+          >
+          <span>THOUGHTFUL FURNITURE FOR EVERYDAY LIVING</span>
+          <span>© 2026 SD FURNITURE</span>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>

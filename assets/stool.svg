@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 780">
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#dbd6ca"/><stop offset="1" stop-color="#b8aa96"/></linearGradient><linearGradient id="wood" x2=".3" y2="1"><stop stop-color="#b38b5d"/><stop offset="1" stop-color="#705338"/></linearGradient></defs>
+  <rect width="700" height="780" fill="url(#bg)"/><circle cx="180" cy="176" r="122" fill="#e8ddc8" opacity=".62"/><path d="M0 579h700v201H0Z" fill="#a59a87"/><ellipse cx="350" cy="662" rx="154" ry="27" fill="#625644" opacity=".23"/>
+  <path d="M246 357q103-50 208 0v42q-104 51-208 0Z" fill="url(#wood)"/><path d="M246 357q103-48 208 0l-10 24q-95-35-188 0Z" fill="#c49b6a"/>
+  <path d="M272 401h33l-20 228h-35Zm122 0h33l24 228h-37Z" fill="#795a3a"/>
+  <path d="M269 493q82 21 164 0" fill="none" stroke="#63492f" stroke-width="19"/><path d="M236 623h45m157 0h46" stroke="#62492f" stroke-width="12"/>
+  <path d="M293 374q48 14 108 0" fill="none" stroke="#d2ae7c" stroke-width="3" opacity=".7"/>
+  <path d="M491 481q-25-57 4-101 31 42 13 103m24 2q2-57 41-81 12 59-23 89" fill="#67735b"/><path d="M489 486h92l-8 27h-76Z" fill="#857357"/>
+</svg>
