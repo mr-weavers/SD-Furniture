@@ -3,13 +3,13 @@
 # SD FURNITURE
 ### *Quiet forms for everyday living.*
 
-**An editorial furniture showcase crafted by [Web-Weavers](mailto:webweavers.freelance@gmail.com)**
+**An editorial furniture showcase crafted by Web-Weavers**
 
 `HTML5` · `CSS3` · `Vanilla JavaScript` · `Zero Dependencies`
 
----
-
 </div>
+
+---
 
 ## Overview
 
@@ -21,27 +21,23 @@ Engineered purely with semantic HTML, modular CSS, and native browser JavaScript
 
 ## Signature Highlights
 
-* **Architectural Spec-Sheet View**.
-* **Fluid SPA Curtain Transitions**.
-* **Bespoke Typography & Motion**.
-* **Curated Collection & Live Filtering**.
-* **Direct Client Lead Flow**.
-* **Accessible & Responsive**.
+* **Architectural Spec-Sheet View** — Interactive callout pins and live finish swatches on every piece.
+* **Fluid SPA Curtain Transitions** — Hash-routed views with browser history support and rapid-click queueing.
+* **Bespoke Typography & Motion** — Custom character-roll navigation, scroll parallax, and reduced-motion support.
+* **Curated Collection & Live Filtering** — Category filtering with screen-reader announcements and product-specific enquiry prefill.
+* **Direct Client Lead Flow** — Validated enquiry form integrated with FormSubmit.
+* **Accessible & Responsive** — Focus-trapped full-screen navigation and fluid layouts across mobile, tablet, and desktop.
 
-## Features
-- Interactive product collection with category filtering
-- interactive callout pins and finish swatches
-- Product-specific enquiry prefill and FormSubmit contact integration
-- Scroll parallax, character-roll navigation, and keyboard accessibility
+---
 
 ## Studio & Enquiries
 
 **Designed & Developed by Web-Weavers**  
 Bespoke front-end design and web development for modern brands.
 
-Email: [webweavers.freelance@gmail.com](mailto:webweavers.freelance@gmail.com)
+* **Email:** [webweavers.freelance@gmail.com](mailto:webweavers.freelance@gmail.com)
+* **Compose in Gmail:** [Send an enquiry via Gmail](https://google.com—%20Web-Weavers)
 
 ---
 
-                                              © 2026 Web-Weavers · Furniture Brand Concept*
-
+<p align="center"><em>© 2026 Web-Weavers · Furniture Brand Concept</em></p>
